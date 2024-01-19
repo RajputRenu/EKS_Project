@@ -8,6 +8,8 @@ Step 2
 -------
 Now Install Kubectl & Helm on AWS EKS
 # Install kubectl
+Follow this link to Install Kubectl
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 kubectl version --client
 
 # Install Helm
