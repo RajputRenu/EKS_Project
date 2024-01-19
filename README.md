@@ -9,8 +9,24 @@ Prerequisites:
 4. kubectl installed
 5. Helm installed
 6. EKS Cluster Configuration
-7. Nodejs Application Code 
+7. Nodejs Application Code
 
 
+Deploying the Node.js Application:
 
-![Screenshot 2024-01-18 185801](https://github.com/RajputRenu/EKS_Project/assets/118665146/6def913a-b403-4973-822f-ba034e322317)
+To deploy the Node.js application on your Amazon EKS cluster, follow these steps given in Deployment file.
+
+Deployment Output:
+Upon successful deployment, you can expect the following information:
+
+Service Information:
+* Run the following command to retrieve details about the deployed service:
+- kubectl get service
+(Look for the external IP/DNS under the "EXTERNAL-IP" column.)
+
+*Accessing the Application:
+- Use the obtained external IP/Loadbalance DNS to access the Node.js application.
+
+
+- Open a web browser and navigate to http://EXTERNAL-IP, replacing EXTERNAL-IP with the actual IP/DNS.
+  
