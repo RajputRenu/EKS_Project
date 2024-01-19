@@ -11,6 +11,7 @@ Prerequisites:
 6. EKS Cluster Configuration
 7. Nodejs Application Code 
 
+Steps For Deployment:- 
 
 
-![Screenshot 2024-01-18 185801](https://github.com/RajputRenu/EKS_Project/assets/118665146/6def913a-b403-4973-822f-ba034e322317)
+![Screenshot 2024-01-18 191104](https://github.com/RajputRenu/EKS_Project/assets/118665146/0ff192e8-6994-4952-966f-ae3c5d9bf6f3)
