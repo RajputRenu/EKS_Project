@@ -27,6 +27,13 @@ Service Information:
 *Accessing the Application:
 - Use the obtained external IP/Loadbalance DNS to access the Node.js application.
 
+![Screenshot 2024-01-18 191104](https://github.com/RajputRenu/EKS_Project/assets/118665146/03669b48-0f49-4d19-a357-b66e3760fd4a)
+
 
 - Open a web browser and navigate to http://EXTERNAL-IP, replacing EXTERNAL-IP with the actual IP/DNS.
-  
+
+*Once you Browser and Navigate to LoadBalancer DNS> External_IP. You will see the OutPut as Shown in Image.
+
+![Screenshot (149)](https://github.com/RajputRenu/EKS_Project/assets/118665146/2118cf52-c062-4eaf-87c7-c47e843b49eb)
+
+Congratulations on successfully deploying the Node.js application! 
