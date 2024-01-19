@@ -10,3 +10,7 @@ Prerequisites:
 5. Helm installed
 6. EKS Cluster Configuration
 7. Nodejs Application Code 
+
+
+
+![Screenshot 2024-01-18 185801](https://github.com/RajputRenu/EKS_Project/assets/118665146/6def913a-b403-4973-822f-ba034e322317)
