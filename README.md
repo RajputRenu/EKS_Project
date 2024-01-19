@@ -14,7 +14,7 @@ Prerequisites:
 
 Deploying the Node.js Application:
 
-To deploy the Node.js application on your Amazon EKS cluster, follow these steps given in Deployment file.
+To deploy the Simple Node.js application on your Amazon EKS cluster, follow these steps given in Deployment file.
 
 Deployment Output:
 Upon successful deployment, you can expect the following information:
