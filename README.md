@@ -57,14 +57,40 @@ The terraform plan command is used to create an execution plan, which is a detai
 The terraform apply command is used to apply the changes proposed in the execution plan created by terraform plan.
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/b3978428-078f-488d-9105-9794d09e3ec6)
 
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/9ed58b44-6a75-4cdf-b86a-8aa0d42d90c3)
 
+AWS Comsole :- 
+1] EC2 Instance:-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/cd2ecdd4-ae8a-4365-a418-d5b79b12bdd3)
+
+2] VPC :-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/92053ac2-987d-4703-9861-4ddcb2455de8)
+Subnet:- 
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/d4cd2f11-058f-43bc-aea6-dc8207bf834f)
+
+3] EKS :-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/11e6509c-26a9-4649-91b1-a7043a92b116)
 
 
 Now Install Kubectl & Helm on AWS EKS
 # Install kubectl
 Follow this link to Install Kubectl
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
-kubectl version --client
+
+Commands to Follow:-
+1] Download the kubectl binary for your cluster's Kubernetes version from Amazon S3.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/c7234e51-0c1f-44e1-bd12-00c2be6331be)
+
+2] Download the SHA-256 checksum for your cluster's Kubernetes version from Amazon S3 using the command for your device's hardware platform. The first link for each version is for amd64 and the second link is for arm64.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/595f0766-10ba-42fe-a90e-e21fae307d58)
+
+3] Check the SHA-256 checksum for your downloaded binary with one of the following commands.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/3714d1d4-0f21-41bf-a598-ad6fe44fbc0a)
+
+4] Apply execute permissions to the binary.
+[ chmod +x ./kubectl ]
+[mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH]
+[kubectl version --client]
 
 # Install Helm
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
