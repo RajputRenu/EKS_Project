@@ -92,31 +92,46 @@ Commands to Follow:-
 [mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH]
 [kubectl version --client]
 
+5] Configure AWS to Instance which was created :-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/2d87f738-de5c-408a-a33c-e552b698307e)
+
 # Install Helm
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/995bf1e6-c04c-4667-b245-2c3d77714554)
+
 
 Step 3
 ------
 Create a Node.js Application
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/b1ae9296-9640-43a6-9aaf-6e54392fe099)
 
 Step 4
 --------
 Create a Helm Chart
+1] 
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/7436b09c-2ea3-4c84-b537-682a6eec8a2b)
 
+ 
 Step 5
 ---------
 Update values.yaml:
 Modify the values.yaml file in your Helm chart to include the service type and annotations for NLB
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f3f7754f-9c60-4c1a-98d4-a0bb64b43e56)
+
 
 Step 6
 ----------
 Update templates/service.yaml:
 Modify the templates/service.yaml file to set the service type and add NLB annotations
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/5a89da61-d602-4ac9-8187-7d0a3e0c86e5)
+
 
 Step 7
 ----------
 Package and Deploy the Updated Helm Chart: (example)
-- helm package my-nodejs-apps 
+- helm package my-nodejs-apps
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/76d8eb22-c30f-4a83-af0c-4e6525b2814f)
+
 
 Deploy the updated Helm chart to your EKS cluster: (example)
 - helm upgrade --install my-nodejs-app-release ./my-nodejs-app-0.1.0.tgz
