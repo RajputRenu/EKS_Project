@@ -18,7 +18,16 @@ To deploy the Simple Node.js application on your Amazon EKS cluster, follow thes
 
 Step 1
 --------
-First Install Terraform on AWS Instance
+First Install Terraform on AWS Instance:
+
+1] Add Terrafrom APT Repository:-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f4c5f314-e43c-4499-882d-afc1c09507b5)
+
+2] Install Terraform using Apt Command:-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/16d2f970-32f5-4a9a-8972-e18eeed73b01)
+
+3]Post terraform installation, verify its version:-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f9d50d05-1bed-49aa-88e9-367657cf1cbd)
 
 Step 2
 -------
