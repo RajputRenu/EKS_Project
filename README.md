@@ -31,6 +31,35 @@ First Install Terraform on AWS Instance:
 
 Step 2
 -------
+Clone The Repository :-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f27ada7c-961b-43f8-a1a1-e40d5fd25891)
+
+Follow the Commands as shown:- 
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/4868aa60-f667-4d1c-a4af-c230d3cbffa6)
+
+Configure AWS in Instance:-
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/43a28d0a-2854-40c0-93f2-f5dd57d2373b)
+
+Terraform Commands:- 
+1] terraform init:- 
+The terraform init command is used to initialize a Terraform working directory. 
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/069f9293-2a93-4193-a630-e679869393c3)
+
+2] terraform validate:-
+The terraform validate command is used to check the syntax and validity of the Terraform files in the working directory.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/dc1a5da9-fcf4-49b0-9727-ad136c0a26f9)
+
+3] terraform plan:-
+The terraform plan command is used to create an execution plan, which is a detailed preview of what changes Terraform will make to your infrastructure.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/7d3c9dea-83e4-4c08-abfe-b71c73fb926c)
+
+4] terraform apply:-
+The terraform apply command is used to apply the changes proposed in the execution plan created by terraform plan.
+![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/b3978428-078f-488d-9105-9794d09e3ec6)
+
+
+
+
 Now Install Kubectl & Helm on AWS EKS
 # Install kubectl
 Follow this link to Install Kubectl
