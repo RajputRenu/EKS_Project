@@ -41,6 +41,7 @@ Configure AWS in Instance:-
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/43a28d0a-2854-40c0-93f2-f5dd57d2373b)
 
 Terraform Commands:- 
+
 1] terraform init:- 
 The terraform init command is used to initialize a Terraform working directory. 
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/069f9293-2a93-4193-a630-e679869393c3)
