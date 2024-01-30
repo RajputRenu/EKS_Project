@@ -21,12 +21,17 @@ Step 1
 First Install Terraform on AWS Instance:
 
 1] Add Terrafrom APT Repository:-
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f4c5f314-e43c-4499-882d-afc1c09507b5)
 
 2] Install Terraform using Apt Command:-
+sudo apt update
+sudo apt install terraform -y
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/16d2f970-32f5-4a9a-8972-e18eeed73b01)
 
 3]Post terraform installation, verify its version:-
+terraform version
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/f9d50d05-1bed-49aa-88e9-367657cf1cbd)
 
 Step 2
