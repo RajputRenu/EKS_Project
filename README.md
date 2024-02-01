@@ -52,6 +52,11 @@ Configure AWS in Instance:-
 
 Terraform Commands:- 
 
+Make changes in Three file as per your regions & ami id:-
+1] provider.tf - make change in region 
+2] subnet.tf - make changes in region of subnet as per your region 
+3] eks_node_group.tf - make changes in ami id as per your region & virtual machine.
+
 1] terraform init:- 
 The terraform init command is used to initialize a Terraform working directory. 
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/069f9293-2a93-4193-a630-e679869393c3)
