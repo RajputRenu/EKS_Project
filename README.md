@@ -1,6 +1,6 @@
 # Nodejs Application Deployment on EKS with HA using Helm and NLB
 
-This project demonstrates the deployment of a Node.js application on Amazon EKS using Helm, a powerful package manager for Kubernetes.Helm simplifies the process of deploying and managing applications by packaging them into customizable charts.
+This project showcases the deployment of a Node.js application on Amazon EKS using Helm, a robust package manager for Kubernetes. Helm streamlines the deployment and management of applications by packaging them into customizable charts.
 
 Prerequisites:
 1. AWS Account
@@ -14,7 +14,7 @@ Prerequisites:
 
 Deploying the Node.js Application:
 
-To deploy the Simple Node.js application on your Amazon EKS cluster, follow these steps given in Deployment file.
+To deploy the Simple Node.js application on your Amazon EKS cluster, follow the steps provided in the Deployment file.
 
 Step 1
 --------
@@ -50,15 +50,16 @@ Follow the Commands as shown:-
 Configure AWS in Instance:-
 ![image](https://github.com/RajputRenu/EKS_Project/assets/118665146/43a28d0a-2854-40c0-93f2-f5dd57d2373b)
 
-Terraform Commands:- 
 
 Make changes in Three file as per your regions & ami id:-
 
-1] provider.tf - make change in region 
+1] provider.tf - Modify provider.tf to change the region.
 
-2] subnet.tf - make changes in region of subnet as per your region 
+2] subnet.tf - modify the subnet region according to your specific region 
 
-3] eks_node_group.tf - make changes in ami id as per your region & virtual machine.
+3] eks_node_group.tf -modify the AMI ID to match your region and virtual machine.
+
+Terraform Commands:-
 
 1] terraform init:- 
 The terraform init command is used to initialize a Terraform working directory. 
@@ -174,4 +175,4 @@ Step 9
 
 ![Screenshot (149)](https://github.com/RajputRenu/EKS_Project/assets/118665146/2118cf52-c062-4eaf-87c7-c47e843b49eb)
 
-Congratulations on successfully deploying the Node.js application! 
+Congratulations on the successful deployment of the Node.js application!
